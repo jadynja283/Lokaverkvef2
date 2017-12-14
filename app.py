@@ -1,6 +1,6 @@
 #Jadyn Margrét
 from bottle import run, route, template, request, response, redirect, static_file
-import datetime, pymysql
+import datetime, pymysql, os
 import bottle
 import beaker
 from sys import argv
